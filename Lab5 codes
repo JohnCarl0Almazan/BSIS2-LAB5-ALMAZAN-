@@ -1,0 +1,12 @@
+temp = int(input("What is the temperature outside? : "))
+
+if temp >= 30 and temp <= 0:
+  print("the temperature is good today")
+  print("can go outside!")
+elif temp < 30 or temp > 0:
+  print("the temperature is bad today!")
+  print("you must stay inside!")
+
+What is the temperature outside? : -18
+the temperature is bad today!
+you must stay inside!
